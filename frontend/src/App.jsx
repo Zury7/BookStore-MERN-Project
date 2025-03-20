@@ -5,7 +5,7 @@ import CreateBook from './pages/CreateBook';
 import ShowBook from './pages/ShowBook';
 import EditBook from './pages/EditBook';
 
-const App = () => {
+const app = () => {
   return (
     <Routes>
       <Route path='/' element={<Home />} />
@@ -14,7 +14,7 @@ const App = () => {
       <Route path='/books/edit/:id' element={<EditBook />} />
       <Route path='/books/edit/:id' element={<DeleteBook />} />
     </Routes>
-  )
-}
+  );
+};
 
-export default App
+export default app;
