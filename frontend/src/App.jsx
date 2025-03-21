@@ -8,7 +8,6 @@ import DeleteBook from './pages/DeleteBook';
 const app = () => {
   return (
     <div>
-      <h1>Udara</h1>
       <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/books/create' element={<CreateBook />} />
